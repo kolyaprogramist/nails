@@ -1,0 +1,117 @@
+.container{
+    margin:0 auto;
+    max-width: 1170px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid black;
+    
+
+}
+.img_logo{
+    display: block;
+    max-height:56px;
+    
+}
+.logo_object{
+    display:flex;
+    justify-content: flex-start;
+}
+.logo{
+    text-transform: uppercase;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 37px;
+ }
+.listing{
+    
+    display: block;
+}
+.list{ 
+    margin:0;
+    display: flex;
+    
+}
+li{
+    
+    font-family: 'Oswald', sans-serif;
+    color:rgb(39, 38, 38);
+    font-size: 24px;
+    list-style-type: none;
+    padding: 10px 5px 10px 5px; 
+    
+    
+}
+.backicon{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.img{
+    display: block;
+    position: inherit;
+    max-width: 1170px;
+
+}
+li:hover{
+    
+  background-color: rgb(247, 202, 144,0.8) ;
+  transition: 0.6s;
+  color:black;
+  
+}
+body{
+    background-image: url(/keep-it-simple.jpg);
+    margin:0;
+}
+.description p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald',sans-serif;
+
+}
+.info{
+    
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+.cards{
+    margin-top: 30px;
+    display: flex ;
+   justify-content: space-around;
+
+}
+.card{
+    width:200px;
+    align-items: center;
+
+}
+.card p {
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 3px;
+    text-align: center;
+}
+.imgcard{
+    border: 3px solid black;
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+}
+.visitka{
+    margin-top: 10px;
+}
+.visitka_p {
+    text-align: center;
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 3px solid rgb(121, 120, 120);
+    padding: 30px;
+    
+    
+}
+.navbar:nth-child(3){ justify-content:flex-end;}
+   
