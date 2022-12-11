@@ -8,7 +8,7 @@
 #pikachu{
     width: 50px;
     height:50px;
-    background-image: url(imggame/png-clipart-pikachu-art-t-shirt-pikachu-mammal-vertebrate.png);
+    background-image: url(png-clipart-pikachu-art-t-shirt-pikachu-mammal-vertebrate.png);
     background-size: 50px 50px;
     position: relative;
     top:150px;
@@ -17,7 +17,7 @@
 #cactus{
     width: 20px;
     height: 40px;
-    background-image: url(imggame/cacti---cacti3.png);
+    background-image: url(cacti---cacti3.png);
     background-size: 20px 40px;
     top:110px;
     left: 580px;
