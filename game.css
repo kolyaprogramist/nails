@@ -1,0 +1,65 @@
+.game{
+   
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    border-bottom: 2px solid seagreen;
+}
+#pikachu{
+    width: 50px;
+    height:50px;
+    background-image: url(imggame/png-clipart-pikachu-art-t-shirt-pikachu-mammal-vertebrate.png);
+    background-size: 50px 50px;
+    position: relative;
+    top:150px;
+
+}
+#cactus{
+    width: 20px;
+    height: 40px;
+    background-image: url(imggame/cacti---cacti3.png);
+    background-size: 20px 40px;
+    top:110px;
+    left: 580px;
+    
+    position: relative;
+    animation: cactusMov 1.7s infinite linear;
+
+}
+@keyframes  cactusMov{
+    0%{
+        left:580px;
+    }
+    100%{
+        left:-20px;
+    }
+   
+
+}
+.jump{
+    animation: jump  0.5s linear ;
+}
+@keyframes  jump {
+    0%{
+        top:150px;    
+    }
+    15%{top:80px;
+
+    }
+    30%{
+        top:40px;
+    }
+    50%{
+        top:0px;
+
+    }
+    45%{
+        top:40px;
+    }
+    75%{
+        top:80px;
+    }
+    100%{
+        top:150px;
+    }
+}
