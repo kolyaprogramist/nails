@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
 const pikachu = document.getElementById("pikachu");
 const cactus = document.getElementById("cactus");
-document.addEventListener("touchstart keydown" , function(event) {
+document.addEventListener("touchstart || keydown" , function(event) {
     jump ();
 });
 function jump () {
